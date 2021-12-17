@@ -1,0 +1,217 @@
+
+  
+/* 版心 */
+.w {
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+.style_red {
+    color: #c40000;
+}
+.shortcut {
+    height: 31px;
+    line-height: 31px;
+    background-color: #f1f1f1;
+}
+
+.shortcut ul li {
+    float: left;
+}
+
+.shortcut .fr ul li:nth-child(even) {
+    width: 1px;
+    height: 12px;
+    background-color: #666;
+    margin-top: 9px;
+    margin: 9px 15px 0 15px;
+}
+
+.shortcut .fr ul li i {
+    margin-left: 6px;
+}
+
+/* 头部区域 */
+.header {
+    position: relative;
+    height: 106px;
+    
+}
+/* logo */
+.logo {
+    position: absolute;
+    top: 25px;
+    width: 171px;
+    height: 55px;
+    
+}
+
+.logo a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    width: 171px;
+    height: 55px;
+    background-image: url(../images/logo.png);
+}
+
+/* 搜索区域 */
+.search {
+    position: absolute;
+    top: 27px;
+    left: 347px;
+    height: 36px;
+    width: 538px;
+    border: 2px solid #b1191a;
+    
+
+}
+
+.search input {
+    float: left;
+    height: 33px;
+    width: 454px;
+    padding-left: 10px;
+}
+
+.search button {
+    float: left;
+    height: 33px;
+    width: 80px;
+    background-color: #b1191a;
+    color: white;
+}
+.hotwords {
+    position: absolute;
+    top: 66px;
+    left: 348px;
+    
+}
+.hotwords a {
+    margin:0 10px;
+}
+
+.shopcar {
+    position: absolute;
+    top: 27px;
+    right: 64px;
+    text-align: center;
+    line-height: 33px;
+    width: 140px;
+    height: 35px;
+    background-color: #f7f7f7;
+    border: 2px solid #dfdfdf;
+}
+
+.shopcar .news{
+    position: absolute;
+    right: 20px;
+    top: -6px;
+    padding: 0 5px;
+    height: 14px;
+    font-size: 12px;
+    line-height: 14px;
+    color: white;
+    background-color: #b1191a;
+    border-radius: 14px 14px 14px 0;
+    
+}
+
+.nav {
+    height: 47px;
+    border-bottom: 2px solid #b1191a;
+}
+
+.nav .dropdown {
+    float: left;
+    height: 45px;
+    width: 209px ;
+    
+}
+.nav .dropdown .dt {
+    width: 100%;
+    height: 47px;
+    background-color: #b1191a;
+    color: white;
+    line-height: 47px;
+    text-align: center;
+}
+.nav .dropdown .dd {    
+    display: none;
+    width: 100%;
+    height: 467px;
+    background-color: #c81623;
+}
+.dd li {
+    height: 31px;
+    font-size: 14px;
+    line-height: 31px;
+    padding-left: 5px;
+    color: white;
+}
+.dd li:hover {
+    background-color: white;
+    color: #b1191a;
+}
+
+.dd li span {
+    float: right;
+    margin-right: 10px;
+}
+
+.items {
+    float: left;
+    width: 990px;
+    height: 46px;
+    
+}
+
+.items ul li {
+    float: left;
+    padding-left: 53px;
+}
+.items ul li a{
+    font-size: 16px;
+    color: 7d7d7d;
+    line-height: 46px;
+}
+.footer {
+    height: 416px;
+    background-color: #f5f5f5;
+    padding-top: 30px;
+}
+
+.footer .mode_service {
+    height: 80px;
+    border-bottom: 2px solid #ccc;
+    
+}
+
+.mode_service li {
+    float: left;
+    width: 176px;
+    height: 51px;
+    margin-right: 61px;
+    
+}
+.mode_service li h5{
+    float: left;
+    width: 50px;
+    height: 50px;
+    background-color: thistle;
+    border-radius: 50px;
+    margin-right: 5px;
+    background: url(../images/icons.png) no-repeat -252px -2px;
+}
+
+.mode_service li h4 {
+    padding: 5px 0 5px 5px;
+    color: #333333;
+    
+    
+}
